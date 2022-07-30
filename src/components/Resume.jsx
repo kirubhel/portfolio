@@ -26,19 +26,19 @@ function Resume() {
                                 <ul className="timeline col-md-12 top_30">
                                     <li><i className=''><FaSuitcase className='h-5 w-5'/></i><h2 className="timeline-title">Working History</h2></li>
                                    
-                                    <li><h3 className="line-title">FullStack Developer -  DAFTech Social</h3>
+                                    <li><h3 className="line-title">FullStack Developer - DAFTech Social</h3>
                                         <span>January 17, 2022 - Present</span>
-                                        <p className="little-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                                        <p className="little-text"></p>
                                     </li>
                                    
                                     <li><h3 className="line-title">Junior Backend Developer -  DAFTech Social</h3>
                                         <span>September 13, 2021 - January 14, 2022</span>
-                                        <p className="little-text">So insisted received is occasion advanced honoured. Among ready to which up. Attacks smiling and may out assured moments man nothing outward.</p>
+                                        <p className="little-text"></p>
                                     </li>
                                  
                                     <li><h3 className="line-title">Junior Frontend Developer - DAFTech Social</h3>
                                         <span>February 15, 2021 - September 10, 2021</span>
-                                        <p className="little-text">Excited him now natural saw passage offices you minuter. At by asked being court hopes. Farther so friends am to detract.</p>
+                                        <p className="little-text"></p>
                                     </li>
                                 </ul> 
                             </div>  
@@ -49,7 +49,7 @@ function Resume() {
                                   
                                     <li><h3 className="line-title">HiLCoE School of Computer Science</h3>
                                         <span>2016 - 2020</span>
-                                        <p className="little-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                                        <p className="little-text"></p>
                                     </li>
                                    
                                     {/* <li><h3 className="line-title">Drawing Course</h3>
@@ -97,7 +97,7 @@ function Resume() {
                 <div className="row">
                     <section className="testimonials bottom_30">
                         <div className="section-title top_60 bottom_30"><span></span><h2>Testimonials</h2></div>
-                       <Slider {...settings}>  
+                       {/* <Slider {...settings}>  
                             <div className="col-md-12 item">
                                 <div className="comment">
                                     <div className="top-section">
@@ -243,7 +243,7 @@ function Resume() {
                             </div>
 
 </Slider>
-                        
+                         */}
                     </section>
                 </div>
             </div>

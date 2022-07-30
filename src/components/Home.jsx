@@ -75,7 +75,7 @@ function Home() {
                 </div>
                 <span className="title">Desktop Development</span>
                 <p className="little-text">
-                  I have been working on Desktop App for 6 years.
+                  I have been working on Desktop App for 2 years.
                 </p>
               </div>
             </div>

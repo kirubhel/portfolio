@@ -2,6 +2,8 @@ import React from 'react'
 import profileImage from '../assets/proIMG2.jpg'
 import {FaFileDownload} from 'react-icons/fa'
 import {BsEyeglasses} from 'react-icons/bs'
+import resume from  '../assets/resume.pdf'
+
 function Profilee() {
   return (
     <div className="col-lg-3 col-md-4">
@@ -43,9 +45,10 @@ function Profilee() {
         </li>
       </ul>
       <div className="col-md-12">
-        <button className="site-btn icon w-[] font-bold py-2  rounded ">
-          <span className='inline-flex items-center '>Download Cv  <FaFileDownload className='rounded-2xl my-1 bg-white text-[#526BC9] mx-2 w-8 h-8 p-[6px] '/></span> 
-        </button>
+        <button href="" className="site-btn icon w-[] font-bold py-2  rounded ">
+        <a href={resume}  >  <span className='inline-flex items-center text-white '>Download Cv  <FaFileDownload className='rounded-2xl my-1 bg-white text-[#526BC9] mx-2 w-8 h-8 p-[6px] '/></span> 
+        
+        </a></button>
       </div>
     </div>
   </div>

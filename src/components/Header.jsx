@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaHome,FaPaperPlane, FaBars,FaFacebook,FaTwitter,FaInstagram,FaLinkedin} from 'react-icons/fa'
+import {FaHome,FaPaperPlane, FaBars,FaTelegram,FaInstagram,FaLinkedin} from 'react-icons/fa'
 import {Link,useLocation} from 'react-router-dom'
 
 function Header() {
@@ -23,9 +23,9 @@ function Header() {
                       <li className="tab">
                         <Link className={location=='portfolio'?'text-[#526BC8]':''} to="portfolio">PORTFOLIO</Link>
                       </li>
-                      <li className="tab">
+                      {/* <li className="tab">
                         <Link className={location=='blog'?'text-[#526BC8]':''} to="blog">BLOG</Link>
-                      </li>
+                      </li> */}
                       <li className="tab">
                         <Link className={location=='contact'?'text-[#526BC8]':''} to="contact">CONTACT</Link>
                       </li>
@@ -43,16 +43,14 @@ function Header() {
                      <FaBars/>
                     </div>
                     <div className="hidden-md social-icons pull-right">
-                      <a className="fb" href="#">
-                        <FaFacebook/>
-                      </a>
-                      <a className="tw" href="#">
-                      <FaTwitter/>
+                     
+                      <a className="tw" target="_blank" href="https://t.me/kirube_l">
+                      <FaTelegram/>
                       </a>
                       <a className="ins" href="#">
                       <FaInstagram/>
                       </a>
-                      <a className="dr" href="#">
+                      <a className="dr" target="_blank" href="https://www.linkedin.com/in/kirubel-gizaw-b8bab1244/">
                       <FaLinkedin/>
                       </a>
                     </div>
