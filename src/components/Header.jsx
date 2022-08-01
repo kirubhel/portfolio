@@ -73,7 +73,7 @@ function Header() {
               </div>
 
               
-<ul className={isMenuVisible ? " z-30  absolute mt-4 md:hidden " : "hidden"}>
+<ul className={isMenuVisible ? " z-30 -ml-10  absolute mt-4 md:hidden " : "hidden"}>
                   <li className="">
                     <Link
                       className={location == "resume" ? "text-[#526BC8] text-[12px] text-right" : "text-[12px]"}
