@@ -6,7 +6,7 @@ import Footer from './Footer'
 import { Outlet } from "react-router-dom";
 function Layout() {
   return (
-    <div className="wrapper top_60 container lg:pt-10  lg:px-40">
+    <div className="wrapper top_60 container lg:pt-10  px-10">
       <div className="row">
         <Profilee />
         <div id="ajax-tab-container" className="col-lg-9 col-md-8 tab-container">

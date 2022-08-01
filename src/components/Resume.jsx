@@ -26,17 +26,17 @@ function Resume() {
                                 <ul className="timeline col-md-12 top_30">
                                     <li><i className=''><FaSuitcase className='h-5 w-5'/></i><h2 className="timeline-title">Working History</h2></li>
                                    
-                                    <li><h3 className="line-title">FullStack Developer - DAFTech Social</h3>
+                                    <li><h3 className=" ">FullStack Developer - DAFTech Social</h3>
                                         <span>January 17, 2022 - Present</span>
                                         <p className="little-text"></p>
                                     </li>
                                    
-                                    <li><h3 className="line-title">Junior Backend Developer -  DAFTech Social</h3>
+                                    <li><h3 className="">Junior Backend Developer -  DAFTech Social</h3>
                                         <span>September 13, 2021 - January 14, 2022</span>
                                         <p className="little-text"></p>
                                     </li>
                                  
-                                    <li><h3 className="line-title">Junior Frontend Developer - DAFTech Social</h3>
+                                    <li><h3 className="">Junior Frontend Developer - DAFTech Social</h3>
                                         <span>February 15, 2021 - September 10, 2021</span>
                                         <p className="little-text"></p>
                                     </li>
@@ -47,7 +47,7 @@ function Resume() {
                                 <ul className="timeline col-md-12 top_30">
                                     <li><i ><FaGraduationCap className='w-5 h-5'/></i><h2 className="timeline-title">Education History</h2></li>
                                   
-                                    <li><h3 className="line-title">HiLCoE School of Computer Science</h3>
+                                    <li><h3 className="">HiLCoE School of Computer Science</h3>
                                         <span>2016 - 2020</span>
                                         <p className="little-text"></p>
                                     </li>
