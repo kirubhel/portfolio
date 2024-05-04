@@ -1,7 +1,7 @@
 import React from "react";
 import { FaTelegram, FaLinkedin ,FaGithub} from "react-icons/fa";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import { useState,useEffect } from "react";
+import { useState } from "react";
 
 
 function Contact() {
