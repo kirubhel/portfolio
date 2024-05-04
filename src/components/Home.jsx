@@ -16,17 +16,19 @@ function Home() {
             <h2>About Me</h2>
           </div>
           <p className="top_30">
-            I am a detail-oriented recent college graduate ( Bachelor of Science
-            in Computer Science) from HiLCoE School of Computer Science and
-            Technology . During my Proficient career, I managed to accrue nearly
-            17 months of work experience. I had the privilege of working for
-            DAFTech Social in a software developer role. And in my free time,
-            where I learned valuable professional skills such as mobile and
-            desktop application development, database design, and web design. In
-            both my academic and professional life, I have been consistently
-            praised as focused by my professors and peers. Whether working on
-            academic, extracurricular, or professional projects, I apply proven
-            communication, creative thinking, and problem-solving skills.
+            A skilled Software Developer with more than 3 years of experience.
+            Since February 2021, I've been actively contributing my expertise as
+            a Software Developer at DAFTech Social ICT Solution, where I
+            specialize in developing web applications using ASP.NET Core,
+            Angular, Django REST API, and React. My responsibilities have
+            involved various projects spanning website, mobile app, and desktop
+            app development, showcasing my proficiency across different
+            platforms. I am committed to continuous learning and growth, staying
+            updated with the latest technologies and industry trends. My strong
+            background in software development, coupled with effective
+            communication skills and a proactive approach, enables me to thrive
+            in fast-paced environments and deliver high- quality results
+            consistently.
             <br />
             <br /> After reviewing my resume, I hope you will agree that I am
             the type of competent and the competitive candidate you are looking
@@ -51,7 +53,7 @@ function Home() {
                 </div>
                 <span className="title">Web Development</span>
                 <p className="little-text">
-                  I have been working on web design for 2 years.
+                  I have been working on web design for more than 3 years.
                 </p>
               </div>
             </div>
@@ -63,7 +65,7 @@ function Home() {
                 </div>
                 <span className="title">Mobile Development</span>
                 <p className="little-text">
-                  I have been developing mobile app for 2 years.
+                  I have been developing mobile app for more than 3 years.
                 </p>
               </div>
             </div>
@@ -75,7 +77,7 @@ function Home() {
                 </div>
                 <span className="title">Desktop Development</span>
                 <p className="little-text">
-                  I have been working on Desktop App for 2 years.
+                  I have been working on Desktop App for more than 3 years.
                 </p>
               </div>
             </div>
@@ -96,58 +98,71 @@ function Home() {
       </div>
 
       <div className="row">
-      <section className="code-skills col-md-6 padding_60">
-                        <div className="section-title bottom_45"><span></span><h2>Code Skills</h2></div>
-                        <ul className="skill-list">
-                            <li> 
-                                <h3>ASP.NET Core</h3>
-                                <div className="progress">
-                                    <div className="percentage w-[80%]" ></div>
-                                </div>
-                            </li>
-                            <li> 
-                                <h3>Node Js</h3>
-                                <div className="progress">
-                                    <div className="percentage w-[70%]" ></div>
-                                </div>
-                            </li>
-                            <li> 
-                                <h3>React</h3>
-                                <div className="progress">
-                                    <div className="percentage w-[80%]" ></div>
-                                </div>
-                            </li>
-                            <li> 
-                                <h3>Php (CodeIgniter)</h3>
-                                <div className="progress">
-                                    <div className="percentage w-[50%]" ></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </section>
-                    <section className="design-skills col-md-6 padding_60 padbot_50">
-                        <div className="section-title bottom_45"><span></span><h2>Design Skills</h2></div>
-                        <ul className="skill-list">
-                            <li> 
-                                <h3>Photoshop</h3>
-                                <div className="progress">
-                                    <div className="percentage w-[50%]" ></div>
-                                </div>
-                            </li>
-                            
-                            <li> 
-                                <h3>Adobe Xd</h3>
-                                <div className="progress">
-                                    <div className="percentage w-[60%]" ></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </section>
-                   
-                </div>
-      
-      
+        <section className="code-skills col-md-4 padding_60">
+          <div className="section-title bottom_45">
+            <span></span>
+            <h2>Frontend Skills</h2>
+          </div>
+          <ul className="skill-list">
+            <li>
+              <h3>Angular</h3>
+              <div className="progress">
+                <div className="percentage w-[90%]"></div>
+              </div>
+            </li>
+         
+            <li>
+              <h3>React</h3>
+              <div className="progress">
+                <div className="percentage w-[80%]"></div>
+              </div>
+            </li>
+           
+          </ul>
+        </section>
+        <section className="design-skills col-md-4 padding_60 padbot_50">
+          <div className="section-title bottom_45">
+            <span></span>
+            <h2>Backend Skills</h2>
+          </div>
+          <ul className="skill-list">
+            <li>
+              <h3>ASP.NET Core</h3>
+              <div className="progress">
+                <div className="percentage w-[90%]"></div>
+              </div>
+            </li>
 
+            <li>
+              <h3>Django REST API</h3>
+              <div className="progress">
+                <div className="percentage w-[80%]"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section className="design-skills col-md-4 padding_60 padbot_50">
+          <div className="section-title bottom_45">
+            <span></span>
+            <h2>Mobile app Skills</h2>
+          </div>
+          <ul className="skill-list">
+            <li>
+              <h3>Kotlin</h3>
+              <div className="progress">
+                <div className="percentage w-[80%]"></div>
+              </div>
+            </li>
+
+            <li>
+              <h3>Flutter</h3>
+              <div className="progress">
+                <div className="percentage w-[80%]"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
     </div>
   );
 }

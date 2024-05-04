@@ -15,8 +15,87 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "~react-image-gallery/styles/css/image-gallery.css";
 
 .leaflet-container {
   height: 60vh;
   width: 100%;
+}
+
+/* styles.css */
+.screenshots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust as needed */
+}
+
+.screenshot-container {
+  width: 300px; /* Adjust as needed */
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.screenshot-container img {
+  width: 100%;
+  height: auto;
+}
+
+.project-item {
+  margin-bottom: 20px;
+}
+
+
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #333;
+  margin-right: 5px;
+}
+
+.title strong {
+  font-weight: bold;
+}
+
+.info {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.cbp-singlePage {
+  display: inline-block;
+  color: #fff;
+  background-color: #415bb9;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cbp-singlePage:hover {
+  background-color: #23527c;
+}
+
+.nicon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background-color: #415bb9;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.project-item .image-gallery {
+  margin-top: 20px;
 }

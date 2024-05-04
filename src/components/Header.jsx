@@ -4,7 +4,7 @@ import {
   FaPaperPlane,
   FaBars,
   FaTelegram,
-  FaInstagram,
+  FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
@@ -69,48 +69,68 @@ function Header() {
                     setIsMenuVisible(!isMenuVisible);
                   }}
                 />
-
               </div>
 
-              
-<ul className={isMenuVisible ? " z-30 -ml-10  absolute mt-4 md:hidden " : "hidden"}>
-                  <li className="">
-                    <Link
-                      className={location == "resume" ? "text-[#526BC8] text-[12px] text-right" : "text-[12px]"}
-                      to="resume"
-                    >
-                      RESUME
-                    </Link>
-                  </li>
-                  <li className="">
-                    <Link
-                      className={
-                        location == "portfolio" ? "text-[#526BC8]text-[12px]" : "text-[12px]"
-                      }
-                      to="portfolio"
-                    >
-                      PORTFOLIO
-                    </Link>
-                  </li>
-                  {/* <li className="tab">
+              <ul
+                className={
+                  isMenuVisible
+                    ? " z-30 -ml-10  absolute mt-4 md:hidden "
+                    : "hidden"
+                }
+              >
+                <li className="">
+                  <Link
+                    className={
+                      location == "resume"
+                        ? "text-[#526BC8] text-[12px] text-right"
+                        : "text-[12px]"
+                    }
+                    to="resume"
+                  >
+                    RESUME
+                  </Link>
+                </li>
+                <li className="">
+                  <Link
+                    className={
+                      location == "portfolio"
+                        ? "text-[#526BC8]text-[12px]"
+                        : "text-[12px]"
+                    }
+                    to="portfolio"
+                  >
+                    PORTFOLIO
+                  </Link>
+                </li>
+                {/* <li className="tab">
                <Link className={location=='blog'?'text-[#526BC8]':''} to="blog">BLOG</Link>
              </li> */}
-                  <li className="">
-                    <Link
-                      className={location == "contact" ? "text-[#526BC8]text-[12px]" : "text-[12px]"}
-                      to="contact"
-                    >
-                      CONTACT
-                    </Link>
-                  </li>
-                </ul>
+                <li className="">
+                  <Link
+                    className={
+                      location == "contact"
+                        ? "text-[#526BC8]text-[12px]"
+                        : "text-[12px]"
+                    }
+                    to="contact"
+                  >
+                    CONTACT
+                  </Link>
+                </li>
+              </ul>
               <div className="hidden-md social-icons pull-right">
                 <a className="tw" target="_blank" href="https://t.me/kirube_l">
                   <FaTelegram />
                 </a>
-                <a className="ins" href="#">
-                  <FaInstagram />
+
+                <a className="tw" target="_blank" href="https://github.com/kirubhel">
+                  <FaGithub />
                 </a>
+
+
+                {/* <a className="ins" href="#">
+                  <FaInstagram />
+                </a> */}
                 <a
                   className="dr"
                   target="_blank"
@@ -121,7 +141,6 @@ function Header() {
               </div>
             </div>
           </div>
-        
         </nav>
       </header>
     </div>
