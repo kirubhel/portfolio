@@ -40,7 +40,6 @@ function Resume() {
     ],
   };
 
-  const images = [wena, daf, crave, emwa, award, tour];
   return (
     <div id="resume">
       <div className="row">
