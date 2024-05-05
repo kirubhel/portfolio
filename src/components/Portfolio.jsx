@@ -148,43 +148,8 @@ function Portfolio() {
       category: "mobile",
     },
 
-    {
+        {
       id: 6,
-      title: "Crave Addis",
-      description: "",
-      link: "https://craveaddis.com/",
-      screenshots: [],
-      category: "site",
-    },
-    {
-      id: 7,
-      title: "Ethio Wonder Tours",
-      description: "",
-      link: "https://ethiowondertours.com/",
-      screenshots: [],
-      category: "site",
-    },
-
-    {
-      id: 8,
-      title: "Ethio Planet Award",
-      description: "",
-      link: "https://ethioplanetaward.com/",
-      screenshots: [],
-      category: "site",
-    },
-
-    {
-      id: 9,
-      title: "Glroy Realestate",
-      description: "",
-      link: "https://gloryrealestateplc.com/",
-      screenshots: [],
-      category: "site",
-    },
-
-    {
-      id: 10,
       title: "Case Tracking Mobile",
       description:
         "The Fasil Kenema App is a comprehensive mobile application designed to provide fans and supporters of Fasil Kenema Football Club with easy access to the latest news, match scores, and ticket purchasing capabilities.",
@@ -201,6 +166,43 @@ function Portfolio() {
       ],
       category: "mobile",
     },
+
+    {
+      id: 7,
+      title: "Crave Addis",
+      description: "The Crave Addis website showcases stunning visuals of its interior and signature dishes, complemented by clear CTAs for menu exploration and reservations. It also includes an 'About Us' section with a backstory, mission, team bios, and community involvement details, along with a menu featuring easy navigation, enticing dish descriptions, and options for various dietary preferences.",
+      link: "https://craveaddis.com/",
+      screenshots: [],
+      category: "site",
+    },
+    {
+      id: 8,
+      title: "Ethio Wonder Tours",
+      description: "The Ethio Wonder Tours website offers captivating visuals and clear navigation for exploring Ethiopian travel experiences, featuring detailed tour packages, customizable itineraries, and an 'About Us' section highlighting the company's mission and team.",
+      link: "https://ethiowondertours.com/",
+      screenshots: [],
+      category: "site",
+    },
+
+    {
+      id: 9,
+      title: "Ethio Planet Award",
+      description: "The Ethio Planet Awards website celebrates technological innovation in Ethiopia, showcasing nominees and winners while providing clear navigation for exploring award categories, criteria, and past recipients.",
+      link: "https://ethioplanetaward.com/",
+      screenshots: [],
+      category: "site",
+    },
+
+    {
+      id: 10,
+      title: "Glroy Realestate",
+      description: "The Glroy Real Estate website presents a comprehensive platform for real estate services, offering intuitive navigation to browse property listings, filter options, and schedule viewings. ",
+      link: "https://gloryrealestateplc.com/",
+      screenshots: [],
+      category: "site",
+    },
+
+
 
     // Add more projects as needed
   ];
